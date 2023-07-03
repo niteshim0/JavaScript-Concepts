@@ -1,0 +1,36 @@
+Variables::->
+ A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence.
+
+Why the let was created ?
+ i)Hoisting no longer works with let.
+ ii)when you use var, you can declare the same variable as many times as you like, but with let you can't.
+
+ Types of Variables::->
+  1)Numbers:
+    You can store numbers in variables, either whole numbers like 30 (also called integers) or decimal numbers like 2.456 (also called floats or floating point numbers). e.g., let myage = 37;
+
+  2)Strings:
+    Strings are pieces of text. When you give a variable a string value, you need to wrap it in single or double quote marks.
+    e.g.,let dolphinGoodbye = "So long and thanks for all the fish";
+  
+  3)Booleans
+    Booleans are true/false values — they can have two values, true or false.
+    e.g., let 6<3;
+
+  4)Arrays
+    An array is a single object that contains multiple values enclosed in square brackets and separated by commas.
+    e.g.,let myNameArray = ["Chris", "Bob", "Jim"];
+  
+  5)Objects
+   In programming, an object is a structure of code that models a real-life object.
+   e.g.,let dog = { name: "Spot", breed: "Dalmatian" };
+
+Dynamic typing::->
+  JavaScript is a "dynamically typed language", which means that, unlike some other languages, you don't need to specify what data type a variable will contain (numbers, strings, arrays, etc.).
+
+Constants in JavaScript::->
+  i)you must initialize them when you declare them
+  ii)you can't assign them a new value after you've initialized them.
+
+When to use const and when to use let?::->
+ Use const when you can, and use let when you have to.
