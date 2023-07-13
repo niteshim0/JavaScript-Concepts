@@ -61,3 +61,17 @@ console.log(browserType); // "mozilla"
 let quote = "To be or not to be";
 quote = quote.replaceAll("be", "code");
 console.log(quote)
+//Removing the whiteSpaces
+let stri = "This is Nitesh Kushwaha    ";
+stri = str.trim();
+console.log(stri);
+//Taking out a Substring
+let subst = stri.substr(8,8);//(startingIndex,length);
+console.log(subst);
+let substr = stri.substring(8,17);//(startingIndex,endingIndex);
+console.log(substr);
+//Concating two string using function
+let s = "Nitesh";
+let t = "Kushwaha";
+let combined = s.concat(" ",t);
+console.log(combined);
