@@ -23,3 +23,24 @@ Throttling is a rate-limiting technique used in software development and various
 10. **Resource Loading**: In situations where resources like images, videos, or data need to be loaded dynamically, throttling can help manage the rate at which these resources are requested and loaded, preventing congestion and improving loading times.
 
 Overall, throttling is a versatile technique used to balance system resources, enhance user experience, and prevent overuse or abuse of resources in various applications and scenarios. It allows for more controlled and efficient handling of events, actions, and requests.
+
+# Throttling vs. Debouncing
+
+Throttling and debouncing are two commonly used techniques in web development for controlling the rate at which a function is executed when triggered by events. These techniques are particularly helpful in scenarios where frequent events can lead to unnecessary function calls, optimizing performance and improving the user experience.
+
+## Throttling
+
+- **Throttling** limits the rate at which a function can be called. It ensures that the function is executed at a fixed interval, even if the triggering event occurs more frequently.
+- When an event is triggered, the function is called at regular intervals, such as every 100 milliseconds. If the event happens multiple times within that interval, the function is executed only once.
+- Throttling is useful when you want to ensure that a function is called periodically but not too frequently, which can reduce the load on the browser and improve performance.
+Use Cases :: triggering function on resize event
+
+## Debouncing
+
+- **Debouncing** delays the execution of a function until a pause in the triggering events occurs. It waits for a certain period of inactivity before allowing the function to run.
+- When an event is triggered, the function is not executed immediately. Instead, a timer is started, and the function will run only after the timer expires. If the event keeps happening within the debounce delay, the timer is reset.
+- Debouncing is particularly useful when you want to ensure that a function is executed only after a user has stopped interacting with an element, like typing in a search box or resizing a window. It helps prevent multiple unnecessary function calls during rapid user input.
+
+In summary, both throttling and debouncing have their respective use cases, and the choice between them depends on the specific requirements of your application and the desired behavior for event handling.
+Use cases :: Ecommerce website search
+
