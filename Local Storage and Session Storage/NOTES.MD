@@ -15,7 +15,7 @@
    <ii>Protocol::if we change from HTTP to HTTPS,we can't able to acess that".</li>
    <li>Host::Host name should be same.</li>
    <li>Port No:: if we are accessing storage on 8000,you can't access it on 8001".</li>
-   <ol>
+   </ol>
 
 3. **Storage Capacity**:
    - `localStorage` generally provides more storage space compared to `sessionStorage`.
